@@ -53,5 +53,6 @@
   height: 150px;
   background: linear-gradient(45deg, rgb(234, 193, 191) 30%, white 90%);
   background-size: 200% 200%;
-  animation: gradient 3s ease infinite;
+  background-position: center;
+  animation: gradient 2s ease infinite;
 }
