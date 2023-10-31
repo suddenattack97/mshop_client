@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div className="App">
-      <AppBar position="static" style={{ backgroundColor: 'rgb(234,193,191)' }}>
+      <AppBar position="static" className="appBar">
         <Toolbar>
           <Typography variant="h5" style={{ flexGrow: 1, fontWeight: 'bold', color: 'rgb(57,57,57)', WebkitTextStroke: '0.3px white' }}>
             검정관측소
