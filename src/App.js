@@ -8,7 +8,7 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 
 import MainComponent from './MainComponent/MainComponent';
-import MainManu from './MainComponent/MainMenu';
+import MainManu from './Menu/MainMenu';
 
 function App() {
   const [anchorEl, setAnchorEl] = React.useState(null);
