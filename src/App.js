@@ -24,8 +24,8 @@ function App() {
   return (
     <div className="App">
       <AppBar position="static" className="appBar">
-        <Toolbar>
-          <Typography variant="h5" style={{ flexGrow: 1, fontWeight: 'bold', color: 'rgb(57,57,57)', WebkitTextStroke: '0.3px white' }}>
+        <Toolbar style={{ height: '150px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <Typography variant="h5" style={{ textAlign: 'center', fontWeight: 'bold', color: 'rgb(57,57,57)', WebkitTextStroke: '0.3px white' }}>
             검정관측소
           </Typography>
         </Toolbar>
