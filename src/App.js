@@ -24,19 +24,9 @@ function App() {
     <div className="App">
       <AppBar position="static" style={{ backgroundColor: 'rgb(234,193,191)' }}>
         <Toolbar>
-        <Typography variant="h5" style={{ flexGrow: 1, fontWeight: 'bold', color: 'rgb(57,57,57)', WebkitTextStroke: '0.3px white' }}>
-          Mshop
-        </Typography>
-          <Button color="inherit" onClick={handleMenu}>메뉴</Button>
-          <Menu
-            anchorEl={anchorEl}
-            open={Boolean(anchorEl)}
-            onClose={handleClose}
-          >
-            <MenuItem onClick={handleClose}>메뉴 1</MenuItem>
-            <MenuItem onClick={handleClose}>메뉴 2</MenuItem>
-            <MenuItem onClick={handleClose}>메뉴 3</MenuItem>
-          </Menu>
+          <Typography variant="h5" style={{ flexGrow: 1, fontWeight: 'bold', color: 'rgb(57,57,57)', WebkitTextStroke: '0.3px white' }}>
+            검정관측소
+          </Typography>
         </Toolbar>
       </AppBar>
       <MainComponent>
