@@ -25,7 +25,7 @@ function App() {
     <div className="App">
       <AppBar position="static" className="appBar">
         <Toolbar style={{ height: '150px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-          <Typography variant="h5" style={{ textAlign: 'center', fontWeight: 'bold', color: 'rgb(57,57,57)', WebkitTextStroke: '0.3px white' }}>
+          <Typography variant="h5" style={{ fontFamily :'taebaek', textAlign: 'center', fontWeight: 'bold', color: 'rgb(57,57,57)' }}>
             검정관측소
           </Typography>
         </Toolbar>
